@@ -69,7 +69,7 @@ class DealzapStockChecker(luigi.Task):
     def run(self):
         dealzap_scraped_df = pd.read_csv(self.input().open(), sep=',')
         stock_update = pd.io.gbq.read_gbq(PRODUCT_ACTIVE_QUERY.format("','".join(dealzap_scraped_df.product_id.tolist())), 'weloveshopping-973',
-            private_key="Weloveshopping-aa71588c21f0.json")
+            private_key=os.path.join(BASE_DIR_PATH,"Weloveshopping-aa71588c21f0.json"))
         agg_df = dealzap_scraped_df.merge(stock_update, how='left', on='product_id')
         with self.output().open('w') as f_out:
             agg_df.to_csv(f_out, encoding='utf-8', index=False)
