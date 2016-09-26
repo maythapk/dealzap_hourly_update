@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "weloveshopping-973",
+  "private_key_id": "aa71588c21f04b571333efa019f0d805402f5925",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQPj/mDKbcq5u+\ng75e65dFEZd+FsZBiw+uF8dXZnrc4XrEP6/pRPFeesC6HzLvju64u4R4iCFFVdcE\nXM4K6Xm6YgHYW0mGCoiCtDMdpbmIoPxumuZvt63u9/Ornar2kL8+1ZfzCSNi5ASV\n/I581vCZJS6hWNzcJgYc8qQjz9fscbUMgEr6C3jau6nnRPuUpfd8ffoDSyz0cZBc\nf4Kih7LwrIhbGFWZ77ux2lp6UQeaoUB66HZLeZW736Yr/nGga4BSGavS7ExT3K1g\nzge9hHZ2df962WJdQ8z1ed+M34HB9YZQBnDI2eB23Fx05ye1Q0o9L2GCC1adi1oY\n+Oz6uLpDAgMBAAECggEBAJaImUpkVO7qArDKrYASUAx2tgtIzVIuA0y3FbvBcglf\n2Y4p97DpzI2esNkamoh/y2Ow8gbraRmk/sTBjZRnyD4KgQj0nIaP8LSDLPw+g4sX\nzMLrqK6TmeFITlX9qMuKQSVb4/ak4XaoHASMSDhIbC5YqYerJCTkO8ELSco1ggIB\ntUC+3D/wP3OnpXb0p6nOCVIIWnVjEKN1ivg3wWE0J3slcSpjOAoFjOsn6ladhPS6\nGf+9/ndF3S58+mYAb9WvsKWXz+UqIFOaSMVV75uPKPdAxy7P8/yRfibXSRCNz31j\nRwuCIXs1WcQNO22hkXWAsXhptrXa7z+EZrFvodNtg8kCgYEA/TtxXe2AfoUkMfGw\nwmOFS+tEn768u6RcsUsgOO0YFygl2ND7S/B9tSS5Lf9Ze1vL3E5FomPviYdWxCsI\nYLuMMfy6MMXiVQISdaWoFTz+FEMWdxCqFYgcm1I4jhnPx8jdFmWxk+/vNTF8CoPy\nEFQrUAV314s4lPDQdeDKyUkRDzcCgYEA0oTsz/6SV0tr4Fg3pj3KQ7J1YSzU1Lzq\nlcuJTylJzPMsJ+sj3Dy1h2NDPcp46L/8p/Fj1fTXY2cYoInBsFnZPyRllY5hsqPX\nefHO5OHPE5+SnfYmh/DZj3+B4cs2aqrXJbwPB+LLqEk2f5C73D2pK157Z+xXjqJn\nzZsamSdbO1UCgYArRMLkJ7ay55D9r6xiKpsWE8cP/IlHDph/+rQwxeI94rBE0cB+\ng0MXdoTlpSHnABJfPEiNrMG7IBLlRe0Sijk0OVifCNDZcZcx3vJPXrKTR7tI8OH+\n99jbeTsMnMByBJIyR4IGIxMeZawqJ81umNMlwyls/O7YFCWqXpSHvCJcFQKBgGrw\nIQerLpVvd5YX2fT1kGiBH8VEK70BVjzPjqmKtLWKlVSVyrqWkDP9BWw/DNpWpDZ/\nlZJa9IrHFSh/sccubP/5Mi0djZ1cQxnr7ogv+KvkNGtPXdVSUIHnaIfVXYgjznSZ\nqhz8ZS3QOwHj+LnxDJ0+OnvY/8Ux1H8KGiHQbzSdAoGABJ0wUwontNM9NchxaWTZ\nQdxFVWsBzvZWIitWGfBSNyw83fQqWt4GKWKyU5HZGjZTmP+84YmVksUWKFOgVmQX\nEVPFNzPdOUzTHjXTyNdqu6Dvu3Yg8pJYIG8MBhs63nL4aAYkbr7lXfMDVTes1s+N\nfIgH96c7T5OCu7mfM9eICIQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "weloveshopping-973@appspot.gserviceaccount.com",
+  "client_id": "117553002386986396635",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/weloveshopping-973%40appspot.gserviceaccount.com"
+}
