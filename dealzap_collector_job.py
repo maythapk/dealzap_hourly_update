@@ -95,7 +95,8 @@ class Export(luigi.Task):
                 result = chr(remain+65) + result;
                 q = q//26 - 1
             return result
-        credentials = ServiceAccountCredentials.from_json_keyfile_name('maythapk-ascend-a186f84648e6.json', SCOPES)
+        credentials = ServiceAccountCredentials.from_json_keyfile_name(
+            os.path.join(BASE_DIR_PATH,'maythapk-ascend-a186f84648e6.json'), SCOPES)
         gc = gspread.authorize(credentials)
         sh = gc.open('WLS_dealzap')
         ws = sh.sheet1
