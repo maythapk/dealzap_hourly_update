@@ -6,6 +6,7 @@ import luigi
 import datetime
 from oauth2client.service_account import ServiceAccountCredentials
 import os
+import numpy as np
 
 BASE_DIR_PATH = os.path.dirname(__file__)
 DATA_DIR_PATH = os.path.join(os.path.dirname(__file__),'data/')
@@ -115,9 +116,10 @@ class Export(luigi.Task):
             val = agg_df.iloc[cell.row-2,cell.col-1]
             if type(val) is str:
                 val = val.decode('utf-8')
-            elif isinstance(val, (int, long, float, complex)):
+            #elif isinstance(val, (int, long, float, complex)):
                 # note that we round all numbers
-                val = int(round(val))
+
+                #val = int(round(val))
             cell.value = val
 
         ws.update_cells(cell_list)
